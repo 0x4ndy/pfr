@@ -1,4 +1,3 @@
-from genericpath import isdir
 import os
 #import re  # use this later on
 
@@ -34,8 +33,8 @@ def find_and_replace(path: str, old_str: str, new_str: str):
 
 def main():
     path = "testdata"
-    old_str = "22222"
-    new_str = "11111"
+    old_str = "11111"
+    new_str = "22222"
     print("Replacing: {} with {}; in: {}".format(old_str, new_str, path))
     find_and_replace(path, old_str, new_str)
 
